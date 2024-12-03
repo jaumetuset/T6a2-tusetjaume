@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AccountsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/movimientos"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/frag_mv_title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_cuentas"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="50dp"
+        android:id="@+id/frag_mv_subtitle"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_Listcuentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+    </Spinner>
+
+
+    <ScrollView
+        android:id="@+id/scroll_movimientos_cuentas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp">
+
+    </ScrollView>
+
+
+</FrameLayout>

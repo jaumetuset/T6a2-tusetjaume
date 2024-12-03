@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.GlobalPosition_Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Posicion_global"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/frag_gp_title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cuentas"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="50dp"
+        android:id="@+id/frag_gp_subtitle"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_cuentas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+    />
+
+</FrameLayout>
